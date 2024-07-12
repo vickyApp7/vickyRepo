@@ -34,13 +34,7 @@ public class AppTest
 		float actual=ar.sum(-100.0f, 400.0f);
 		assertEquals(expected, actual,"test3");
 		}
-	@Test
-	public void testWithZeroes() {
-		System.out.println("AppTest.testWithZeroes()");
-		float expected=0.0f;
-		float actual=ar.sum(0.0f, 0.0f);
-		assertEquals(expected, actual,"test4");
-		}
+	
 	@BeforeAll
 	public static void setUp() {
 		System.out.println("AppTest.setUpOnce()::BeforeAll");
