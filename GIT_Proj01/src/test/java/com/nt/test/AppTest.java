@@ -37,7 +37,11 @@ public class AppTest
 	
 	@BeforeAll
 	public static void setUp() {
+
 		System.out.println("AppTest.setUpOnce()::BeforeAll:ooooo");
+
+		
+
 		ar=new Arithmetic();
 	}
 	@AfterAll
