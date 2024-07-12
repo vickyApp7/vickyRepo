@@ -30,8 +30,8 @@ public class AppTest
 	public void testWithMixedValues() {
 		
 		System.out.println("AppTest.testWithMixedValues()");
-		float expected=100.0f;
-		float actual=ar.sum(-100.0f, 200.0f);
+		float expected=300.0f;
+		float actual=ar.sum(-100.0f, 400.0f);
 		assertEquals(expected, actual,"test3");
 		}
 	@Test
