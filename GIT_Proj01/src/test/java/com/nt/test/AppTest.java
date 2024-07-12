@@ -15,8 +15,8 @@ public class AppTest
 	@Test
 	public void testWithPositivesValues() {
 		System.out.println("AppTest.testWithPositivesValues()");
-		float expected=300.0f;
-		float actual=ar.sum(100.0f, 200.0f);
+		float expected=400.0f;
+		float actual=ar.sum(200.0f, 200.0f);
 		assertEquals(expected, actual,"test1");
 		}
 	@Test
